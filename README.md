@@ -1,48 +1,50 @@
-Riddhi's Portfolio
+# Riddhi's Portfolio
+
 Welcome to my personal portfolio website! This website showcases my skills as a passionate Web Developer. Here, you can learn about my experience, explore my projects, and contact me directly.
 
-Features
-Responsive Design:
-The portfolio adapts to all screen sizes, ensuring a seamless user experience across devices.
+---
 
-Dark/Light Mode Toggle:
-Users can toggle between light and dark modes to suit their preferences for comfortable viewing.
+## Features
 
-Experience Timeline:
-Displays my professional experience in a clean, easy-to-read format.
+- **Responsive Design:**  
+  The portfolio adapts to all screen sizes, ensuring a seamless user experience across devices.
 
-Projects Section:
-Explore various projects that I've worked on, including links to GitHub repositories.
+- **Dark/Light Mode Toggle:**  
+  Users can toggle between light and dark modes to suit their preferences for comfortable viewing.
 
-Contact Section:
-Reach out to me directly through the built-in contact form.
+- **Experience Timeline:**  
+  Displays my professional experience in a clean, easy-to-read format.
 
-Tech Stack
+- **Projects Section:**  
+  Explore various projects that I've worked on, including links to GitHub repositories.
+
+- **Contact Section:**  
+  Reach out to me directly through the built-in contact form.
+
+---
+
+## Tech Stack
+
 This portfolio website uses the following technologies:
 
-HTML5: Structure of the website
+- **HTML5:** Structure of the website
+- **CSS3:** Styling and layout
+- **JavaScript:** Interactive elements and functionality
+- **Typed.js:** Used for creating a dynamic typing effect in the header
+- **SCSS (optional):** For advanced styling (if used in the project)
+- **Responsive Layout:** Media queries to ensure the website adapts to various screen sizes
+- **Light/Dark Mode:** Toggle button for switching between light and dark themes
 
-CSS3: Styling and layout
+---
 
-JavaScript: Interactive elements and functionality
+## Installation
 
-Typed.js: Used for creating a dynamic typing effect in the header
-
-SCSS (optional): For advanced styling (if used in the project)
-
-Responsive Layout: Media queries to ensure the website adapts to various screen sizes
-
-Light/Dark Mode: Toggle button for switching between light and dark themes
-
-Installation
 To view this project locally, follow these steps:
 
-Clone the repository:
+1. **Clone the repository:**
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/portfolio.git
+   ```bash
+   git clone https://github.com/your-username/portfolio.git
 Navigate into the project folder:
 
 bash
