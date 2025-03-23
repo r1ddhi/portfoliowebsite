@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Riddhi - Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("light-mode");
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Riddhi's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#" onclick="toggleContact()">Contact Me</a></li>
+        </ul>
+      </div>
+      <button class="toggle-btn" onclick="toggleTheme()">
+        🌗 Toggle Theme
+      </button>
+    </nav>
+  </header>
+  <main>
+    <section class="first">
+      <div class="leftsection">
+        Hi, I am <span class="purple">Riddhi</span>
+        <div>and I am a passionate</div>
+        <div>web developer</div>
+        <span id="element"></span>
+        <div class="button">
+          <a href="Riddhi Kumbhani Resume.pdf" download>
+            <button class="btn">Download Resume</button>
+          </a>
+          <a href="https://github.com/r1ddhi">
+            <button class="btn">Visit Github</button>
+          </a>
+        </div>
+      </div>
+      <div class="rightsection">
+        <img src="pg.png" alt="" />
+      </div>
+    </section>
+    <hr />
+    <section class="second">
+      <span class="text-grey">What I have done so far.</span>
+      <h1>Tech Stack</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="" />
+          <div class="vertical-text">Front End</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+            reprehenderit?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="" />
+          <div class="vertical-text">Front End</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+            reprehenderit?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="" />
+          <div class="vertical-text">Front End</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+            reprehenderit?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="" />
+          <div class="vertical-text">Back End</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita,
+            placeat?
+          </div>
+        </div>
+        <div class="vertical">
+          <img class="image-top" src="html.png" alt="" />
+          <div class="vertical-text">DataBase</div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam,
+            non!
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="experience" id="experience">
+      <h1>Experience Timeline</h1>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Software Engineer</h3>
+            <span class="timeline-date">2023 - Present</span>
+            <p>
+              Working at XYZ Company, developing scalable web applications.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Front-End Developer</h3>
+            <span class="timeline-date">2021 - 2023</span>
+            <p>Designed and implemented responsive UI at ABC Tech.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <h3>Intern - Web Development</h3>
+            <span class="timeline-date">2019 - 2021</span>
+            <p>
+              Worked on client projects and gained hands-on experience in web
+              technologies.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <h3>Freelance Developer</h3>
+            <span class="timeline-date">2017 - 2019</span>
+            <p>
+              Developed custom websites and web apps for small businesses.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h1>Projects</h1>
+      <div class="projects-container">
+        <div class="project-card">
+          <img src="tictactoe.jpeg" alt="tic-tac-toe " class="project-img" />
+          <h3>tic-tac-toe</h3>
+          <p class="tech-used">HTML | CSS | JavaScript</p>
+          <a href="https://github.com/r1ddhi/Tic-Tac-Toe-Game" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <img src="calculator.jpeg" alt="Cute Calculator " class="project-img" />
+          <h3>Cute-Calculator</h3>
+          <p class="tech-used">HTML | CSS | JavaScript</p>
+          <a href="https://github.com/r1ddhi/Calculator" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <img src="emailseninal.png" alt="Email-Sentinel" class="project-img" />
+          <h3>Email-Sentinel</h3>
+          <p class="tech-used">Jupitor Notebook | CSS | JavaScript | Python | HTML</p>
+          <a href="https://github.com/Vansh-829/Email-Sentinel2" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+          <img src="todoapp.jpeg" alt="To-Do-App" class="project-img" />
+          <h3>To-Do-App</h3>
+          <p class="tech-used">SCSS | JavaScript | HTML</p>
+          <a href="https://github.com/r1ddhi/ToDoApp" target="_blank" class="project-link">View on GitHub</a>
+        </div>
+
+      </div>
+      <section id="contact-section" class="hidden">
+        <h2>Contact Me</h2>
+        <form name="contact" method="POST" data-netlify="true" class="contact-form">
+          <input type="hidden" name="form-name" value="contact" />
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn">Send</button>
+        </form>
+  </main>
+  <footer>
+    <div class="footer">
+      <div class="footer-section about">
+        <h3>About Me</h3>
+        <p>
+          I'm a passionate developer focused on creating beautiful and
+          functional web experiences. Always learning, always building.
+        </p>
+      </div>
+
+      <div class="footer-section social">
+        <h3>Follow Me</h3>
+        <div class="social-icons">
+          <a href="https://github.com/r1ddhi"><img src="icons/github-142-svgrepo-com.svg" alt="GitHub" /></a>
+          <a href="https://www.linkedin.com/in/riddhi-kumbhani-054631215/"><img src="icons/linkedin-161-svgrepo-com.svg"
+              alt="LinkedIn" /></a>
+          <a href="mailto:kumbhaniriddhi042002@gmail.com"><img src="icons/email-9-svgrepo-com.svg" alt="Email" /></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-rights">
+      © 2025 Riddhi.Kumbhani | All rights reserved.
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed("#element", {
+      strings: [
+        "Web Developer",
+        "Full Stack Developer",
+        "Cyber-Sec Enthusiast",
+      ],
+      typeSpeed: 50,
+    });
+  </script>
+  <script>
+    function toggleContact() {
+      const contactSection = document.getElementById("contact-section"); // ✅ correct ID
+      if (contactSection.style.display === "none" || contactSection.style.display === "") {
+        contactSection.style.display = "block";
+        contactSection.scrollIntoView({ behavior: "smooth" });
+      } else {
+        contactSection.style.display = "none";
+      }
+    }
+  
+    function sendEmail(event) {
+      event.preventDefault();
+  
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
+      const message = document.getElementById("message").value.trim();
+  
+      const subject = encodeURIComponent("Portfolio Contact from " + name);
+      const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${message}`);
+  
+      window.location.href = `mailto:kumbhaniriddhi042002@gmail.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+  
+</body>
+
+</html>
